@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+//     箭头函数的this指向定义时所在的外层第一个普通函数，跟使用位置没有关系。
+// 被继承的普通函数的this指向改变，箭头函数的this指向会跟着改变
+// 不能作为构造实例化对象
+    let fun = (a,b) => a+b
+    //当代码块中只有一条语句，可以省略大括号和return
+    let fn =(a)=> a+1
+    // 当代码块中只有一个参数时，可以省略小括号
+    function getName(){
+        console.log(this.name);
+    }
+    let getName2 = () =>{
+        console.log(this.name);
+    }
+
+    window.name='张';
+    const school = {
+        name:'Z'
+    }
+    getName()
+    getName2()
+    getName.call(school)
+    getName2.call(school)
+
+
+
+
+
+    // function getName(){
+    //     console.log(this.name);
+    // }
+    // let getName2 = () =>{
+    //     console.log(this.name);
+    // }
+
+    // window.name='张';
+    // const school = {
+    //     name:'Z'
+    // }
+    // getName()
+    // getName2()
+    // getName.call(school)
+    // getName2.call(school)
+
+
+
+
+
+    // function getName(){
+    //     console.log(this.name);
+    // }
+    // let getName2 = () =>{
+    //     console.log(this.name);
+    // }
+
+    // window.name='张';
+    // const school = {
+    //     name:'Z'
+    // }
+    // getName()
+    // getName2()
+    // getName.call(school)
+    // getName2.call(school)
+</script>
+</html>

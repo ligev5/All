@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // symbol出现是为了出现它的标识,用来解决命名冲突的问题，不能与其他数据进行运算
+    let s = Symbol()
+    let s1 = Symbol('大')
+    let s2 =Symbol('学')
+    let s3 = Symbol.for('生') //创建
+    console.log(s,s1,s2,s3);
+
+    let a = Symbol()
+    let a1 = Symbol('大')
+    let a2 =Symbol('学')
+    let a3 = Symbol.for('生') //创建
+    console.log(a,a1,a2,a3);
+
+    let b = Symbol()
+    let b1 = Symbol('大')
+    let b2 =Symbol('学')
+    let b3 = Symbol.for('生') //创建
+    console.log(b,b1,b2,b3);
+</script>
+</html>

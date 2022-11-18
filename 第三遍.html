@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+    <script>
+//      let strNum = '12';
+//         let num = Number(strNum); //转换数字类型
+//         console.log(num);
+//         //
+//         let parStr = '12.3'
+//         let parse = parseInt(parStr)  //整数值
+//         console.log(parse);
+//         //
+//         let parsetflots = '12.36你好'
+//         let parflotStr = parseFloat(parsetflots) //只取数字或第一个数字
+//         console.log(parflotStr);
+//         console.log(10-'5'); 
+
+
+//         console.log((Number(''))); //0
+//         console.log((Number('10'))); //10
+//         console.log((Number('10px'))); //NaN
+
+//         console.log(Number(true)); //true是1
+//         console.log(Number(false)); //false是0
+
+//         console.log(Number(null)); //null是0
+//         console.log(Number(undefined)); //undefined是NaN
+
+//         let a =Symbol('a') //Symbol值不能转换
+//         console.log(a);
+//         // console.log(Number(a));
+//         // console.log(Number(1n));
+
+//         let arr =[10] //一个以上是NaN
+//         console.log(Number(arr));
+
+//         console.log(String(1));
+//         console.log(String(NaN));
+//         console.log(String(null));
+//         console.log(String(undefined));
+//         console.log(String(Symbol('a')));
+//         console.log(String({}));
+
+//         console.log(10+'10'); //1010
+//         console.log(10+new Date()); //时间
+//         console.log(10+[10]); //1010
+
+//         var i = 1;
+//         console.log(i);
+//         var aa = i++;
+//         console.log(i);
+//         console.log(aa);
+
+
+//         // ***typeof检测数据类型 返回对应类型的字符串***
+//         let num1 = 123;
+//         let str = '123';
+//         let bool = true;
+//         let arry = []
+//         let obj = {};
+//         let fn = function () {};
+//         let cla = class {};
+        
+//         console.log(typeof num1); //Number
+//         console.log(typeof str);  //string
+//         console.log(typeof bool); //boolean
+//         console.log(typeof null); //object
+//         console.log(typeof undefined); //undefined
+//         console.log(typeof arr); //object
+//         console.log(typeof Array); //function
+//         console.log(typeof obj); //object
+//         console.log(typeof Object); //function
+//         console.log(typeof fn); //function
+//         console.log(typeof cla); //function
+//         console.log(typeof aaaaa); //undefined
+
+//         // ***instanceof 检测类型返回布尔值***
+//         // instanceof 不能检测基本数据类型，判断前者的 proto 是否在后者的原型对象上 
+
+//         let num2 =123;
+//         let str2 ='123';
+//         let boole =true;
+
+//         let arr2 =[];
+//         let obj2 ={};
+//         let fn2 =function () {};
+//         let cla2 = class {}
+//         let number =new Number(12);
+
+//         console.log(number instanceof Number); //true
+//         console.log(num2 instanceof Number);    //false
+//         console.log(str2 instanceof String);    //false
+//         console.log(boole instanceof Boolean);      //false
+//         console.log(null instanceof Object);    //false
+//         console.log(undefined instanceof Object); //false
+//         console.log(arr2 instanceof Array); //true
+//         console.log(arr2 instanceof Object);//true
+//         console.log(obj2 instanceof Object);//true
+//         console.log(fn2 instanceof Function);//true
+//         console.log(fn2 instanceof Object);//true
+//         console.log(cla2 instanceof Function);//true
+//         console.log(cla2 instanceof Object);//true
+        
+//           // ***constructor 基本数据类型和复杂数据类型都可以检测，返回构造函数***
+//     let num = 123;
+//     let str = '123';
+//     let bool = true;
+
+//     let arr = [];
+//     let obj = {};
+//     let fn =function () {};
+//     let cla = class {};
+//     console.log(num.constructor);  // ƒ Number() { [native code] }
+// console.log(str.constructor);  // ƒ String() { [native code] }
+// console.log(bool.constructor); // ƒ Boolean() { [native code]
+
+// console.log(arr.constructor);  // ƒ Array() { [native code] }
+// console.log(obj.constructor);  // ƒ Object() { [native code] }
+// console.log(fn.constructor);  // ƒ Function() { [native code] }
+// console.log(cla.constructor);  // ƒ Function() { [native code] }
+    
+//     function Demo () {
+//         Demo.prototype = Array.prototype;
+//         let demo = new Demo();
+//         console.log(demo.constructor);
+//     }
+
+  // ### 4.Object.prototype.toString.call() 返回字符串，这个方法查的特别的准，可以检查任意类型
+//   let num = 123
+// let str = "123"
+// let bool = true
+
+// let arr = []
+// let obj = {}
+// let fn = function () { }
+// let cla = class { }
+
+// console.log(Object.prototype.toString.call(num));// [object Number]
+// console.log(Object.prototype.toString.call(str));// [object String]
+// console.log(Object.prototype.toString.call(bool));// [object Boolean]
+// console.log(Object.prototype.toString.call(null));// [object Null]
+// console.log(Object.prototype.toString.call(undefined));//[object Undefined]
+
+// console.log(Object.prototype.toString.call(arr));// [object Array]
+// console.log(Object.prototype.toString.call(obj));// [object Object]
+// console.log(Object.prototype.toString.call(fn));// [object Function]
+// console.log(Object.prototype.toString.call(cla));// [object Function]
+
+
+// // ### 5.Object.getPrototypeOf()
+
+// // ```
+// // // 获取原型，和想要的原型做对比
+// console.log(Object.getPrototypeOf([]) === Array.prototype); // true
+// console.log(Object.getPrototypeOf({}) === Object.prototype); // true
+// ```
+// let num = 123;
+//     let srt = '123'
+//     let bool = true;
+//         //Object.getPrototypeOf()  这种方法可以检测所有数据类型，但是返回的是一个字符串，需要用正则表达式来判断
+//     console.log(Object.getPrototypeOf(num)); // Number {0, constructor: ƒ, toExponential: ƒ, toFixed: ƒ, toPrecision: ƒ, …}
+//     console.log(Object.getPrototypeOf(srt)); //     String {0: "", length: 0, constructor: ƒ, anchor: ƒ, big: ƒ, …}
+//     console.log(Object.getPrototypeOf(bool)); //    Boolean {false, constructor: ƒ, toString: ƒ, valueOf: ƒ}
+//     console.log(Object.getPrototypeOf(arr)); //     ƒ () { [native code] }
+//     console.log(Object.getPrototypeOf(obj)); //    ƒ () { [native code] }
+//     console.log(Object.getPrototypeOf(fun)); // [Function]
+//     console.log(Object.getPrototypeOf(cla)); // [Function]
+//     // console.log(Object.getPrototypeOf(null)); // 报错
+//     // console.log(Object.getPrototypeOf(undefined)); // 报错
+//     console.log(Object.getPrototypeOf(Array)); // [Function]
+//     console.log(Object.getPrototypeOf(Function)); // [Function]
+//     // console.log(Object.getPrototypeOf(aaa)); // 报错
+
+// ### **五种方法的总结**
+
+// - ***typeof：这种方法只能检测基本数据类型，null 和对象的不准***
+// - ***instanceof：只要是基本数据类型检测就是false，只要是引用数据类型，并且右边是 Object 就是true，可以很好的区分是哪一大类型***
+// - ***constructor：可以检查基本和引用数据类型，但是可以被修改，有一定的缺陷***
+// - ***Object.prototype.toString.call()：这种方式是最准的，什么类型都可以检测***
+// - ***Object.getPrototypeOf()：这种方法获取原型***
+
+
+    // 字符串方法
+var str = '一个三四五六'
+        console.log(str.length);
+
+        var arr = '一二三四五六'
+        var a =arr.charAt(5)
+        console.log(a);
+
+        var str1 = 'abc';
+        var str2 = 'def';
+        var a=str1.concat(str2)
+        console.log(a);
+
+        var b = str1 + str2
+        console.log(b);
+
+        var str3 = '四五六七八九'
+        console.log(str3.indexOf('四'));
+        console.log(str3.indexOf('5'));
+
+        var str1 = '1111122222222'
+        console.log(str.indexOf('2'));
+
+        var str4 = '一二三四五六'
+        console.log(str4.replace('三','九'));
+        console.log(str4);
+    
+        var str5 = '一二三三五六'
+        console.log(str5.replace('三','九'));
+        console.log(str5);
+
+
+        var str6 ='1-1二1三1四1五1六'
+        console.log(str6);
+        console.log(str6.split());
+        console.log(str6.split(''));
+        console.log(str6.split('1'));
+        console.log(str6.split('1',2));
+    </script>
+</html>
