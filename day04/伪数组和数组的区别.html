@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+
+    // 伪数组
+    // let arr = {
+    //     0: 'aa',
+    //     1: 'bb',
+    //     2: 'cc',
+    //     length: 3
+    // }
+    // console.log(arr);
+    // let arr1 = Array.from(arr)
+    // console.log(arr1);
+
+
+    // let arr = {
+    //     0: 'aa',
+    //     1: 'bb',
+    //     2: 'cc',
+    //     length: 3
+    // }
+    // console.log(arr);
+    // let arr1 = Array.from(arr)
+    // console.log(arr1);
+
+
+    let arr = {
+        0: 'aa',
+        1: 'bb',
+        2: 'cc',
+        length: 3
+    }
+    console.log(arr);
+    // 伪数组转数组
+    let arr1 = Array.from(arr)
+    console.log(arr1);
+ // 总结：伪数组和数组的区别
+ // 1. 伪数组没有数组的方法
+ // 2. 伪数组有length属性
+ // 3. 伪数组可以转数组通过Array.from()
+//  常见的伪数组有：函数参数arguments，DOM对象列表(例如document.querySelectorAll('div'))，jQuery中的$('div')等
+// Array.prototype
+// 伪数组没有Array.prototype，它只是一个对象
+// 数组有Array.prototype，他是对象的同时，也是数组
+// 索引（index）和长度（length）
+// 伪数组的索引，就是那些键值对的key，没有真正的顺序可言；长度是手动设置的
+// 数组的索引和长度是内置属性
+</script>
+
+</html>
