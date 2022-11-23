@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    // ### 4.Object.prototype.toString.call() 返回字符串，这个方法查的特别的准，可以检查任意类型
+    let num = 123
+let str = "123"
+let bool = true
+
+let arr = []
+let obj = {}
+let fn = function () { }
+let cla = class { }
+
+console.log(Object.prototype.toString.call(num));// [object Number]
+console.log(Object.prototype.toString.call(str));// [object String]
+console.log(Object.prototype.toString.call(bool));// [object Boolean]
+console.log(Object.prototype.toString.call(null));// [object Null]
+console.log(Object.prototype.toString.call(undefined));//[object Undefined]
+
+console.log(Object.prototype.toString.call(arr));// [object Array]
+console.log(Object.prototype.toString.call(obj));// [object Object]
+console.log(Object.prototype.toString.call(fn));// [object Function]
+console.log(Object.prototype.toString.call(cla));// [object Function]
+
+
+// ### 5.Object.getPrototypeOf()
+
+// ```
+// // 获取原型，和想要的原型做对比
+console.log(Object.getPrototypeOf([]) === Array.prototype); // true
+console.log(Object.getPrototypeOf({}) === Object.prototype); // true
+// ```
+
+// ### **五种方法的总结**
+
+// - ***typeof：这种方法只能检测基本数据类型，null 和对象的不准***
+// - ***instanceof：只要是基本数据类型检测就是false，只要是引用数据类型，并且右边是 Object 就是true，可以很好的区分是哪一大类型***
+// - ***constructor：可以检查基本和引用数据类型，但是可以被修改，有一定的缺陷***
+// - ***Object.prototype.toString.call()：这种方式是最准的，什么类型都可以检测***
+// - ***Object.getPrototypeOf()：这种方法获取原型***
+</script>
+
+</html>
