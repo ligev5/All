@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function deepClone(obj){
+        if(obj == null) return obj; //判断数据类型为null或者undefind 返回传入参数
+        if(obj instanceof Date) return new Date() //日期不用拷贝 返回日期对象
+        if(obj instanceof RegExp) return new RegExp() //正则不用拷贝 返回正则对象
+        if(typeof obj !== "object") return obj //函数不需要拷贝
+        let res = new obj.constructor();
+        for(key in obj){
+            res[key] = deepClone(obj[key])
+        }
+        console.log(res);
+        return res
+    }
+</script>
+</html>
