@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+    <script>
+        // 封装promise
+
+//         const fs =require('fs')
+
+// function p(url){
+//     return new Promise(function(resolve,reject){
+//         fs.readFile(url,(err,data)=>{
+//             if(err) reject(err)
+//             resolve(data)
+//         })
+//     })
+// }
+
+// p('../fontsize/万磁王.md').then(res=>{
+//     return console.log(res.toString());
+// })
+// .then(()=>{
+    
+//     p('../fontsize/刘伍兹.md').then(res=>{
+//         console.log(res.toString());
+//     })
+// })
+// .then(()=>{
+//     p('../fontsize/刘踢贼.md').then(res=>{
+//         console.log(res.toString());
+//     })
+// })
+
+    // catch的方法
+
+//     const fs =require('fs')
+
+// function getPeach(){
+//     return new Promise(function(resolve,reject){
+//         fs.readFile('',(err,data)=>{
+//             if(err) reject(err)
+//             resolve(data)
+//         })
+//     })
+// }
+
+// function getTroops(){
+//     return new Promise(function(resolve,reject){
+//         fs.readFile('',(err,data)=>{
+//             if(err) reject(err)
+//             resolve(data)
+//         })
+//     })
+// }
+
+// function getAgent(){
+//     return new Promise(function(resolve,reject){
+//         fs.readFile('',(err,data)=>{
+//             if(err) reject(err)
+//             resolve(data)
+//         })
+//     })
+// }
+
+// getPeach().then(res=>{
+//     console.log(res,'58');
+// }).catch(err=>{
+//     console.log(err,'60');
+// })
+// .then((data)=>{
+//     let result = getTroops().then(res=>res.toString())
+//     console.log(result,'64');
+// }).catch(err=>{
+//     console.log(err,'66');
+// })
+// .then((data1)=>{
+//     console.log(data1);
+//     getAgent().then(res=>{
+//         console.log(res.toString(),'71');
+//     })
+// }).catch(err=>{
+//     console.log(err,'63');
+// })
+
+    // all和race方法
+
+      // 和并数组race方法
+
+// const p1 = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve(11111);
+//     },300)
+// })
+
+
+// const p2 = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve(22222);
+//     },500)
+// })
+
+
+// const p3 = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve(3333);
+//     },3000)
+// })
+
+// // Promise.race([p1,p2,p3])
+// // .then(res=>{
+// //     console.log('res:',res);
+// // })
+// // .catch(err=>{
+// //     console.log('err:',err);
+// // })
+
+// // all方法
+
+// Promise.all([p1,p2,p3])
+// .then(res=>{
+//     console.log('res:',res);
+// })
+// .catch(err=>{
+//     console.log('err:',err);
+// })
+
+    // finall方法
+
+    // function p(){
+    //         return new Promise((resolve,reject)=>{
+    //             setTimeout(()=>{
+    //                 resolve('你好')
+    //                 reject('再见')
+    //             })
+    //         })
+    //     }
+    //     p().then((res)=>{
+    //         console.log(res);
+    //     }).catch((err)=>{
+    //         console.log(err);
+    //     }).finally(()=>{
+    //         console.log('我是finally');
+    //     })
+
+    //    async和await
+
+    // function time(){
+    //     return "hello"
+    // }
+
+    // async function aa(){
+    //     let res=await time()
+    //     console.log(res);
+    // }
+    // aa()
+
+
+    // function fn1(){
+    //     return 10
+    // }
+    // function fn2(num){
+    //     return 11+num
+    // }
+    // function fn3(num){
+    //     return 12+num
+    // }
+    // function fn4(num){
+    //     return 13+num
+    // }
+    // function fn5(num){
+    //     return 14+num
+    // }
+
+    // async function fn6(){
+    //     let res =await fn1()
+    //     res= await fn2(res)
+    //     res= await fn3(res)
+    //     res= await fn4(res)
+    //     res= await fn5(res)
+    //     console.log(res); //60
+    // }
+    // fn6()
+
+    // function time(){
+    //     return "hello"
+    // }
+
+    // async function aa(){
+    //     let res=await time()
+    //     console.log(res);
+    // }
+    // aa()
+
+
+    // function fn1(){
+    //     return 10
+    // }
+    // function fn2(num){
+    //     return 11+num
+    // }
+    // function fn3(num){
+    //     return 12+num
+    // }
+    // function fn4(num){
+    //     return 13+num
+    // }
+    // function fn5(num){
+    //     return 14+num
+    // }
+
+    // async function fn6(){
+    //     let res =await fn1()
+    //     res= await fn2(res)
+    //     res= await fn3(res)
+    //     res= await fn4(res)
+    //     res= await fn5(res)
+    //     console.log(res); //60
+    // }
+    // fn6()
+    
+    // Map
+
+//     const map =new Map()
+
+// map.set('name','小兰')
+
+// map.set('change',function(){
+//     console.log('quxizang');
+// })
+
+// let key = {
+//     school:'SCHOOL'
+// }
+// map.set(key,['清华','beida','beihang','beiyou'])
+// console.log(map);
+
+// map.delete('name')
+// console.log(map);
+
+// console.log(map.has('change'));
+// console.log(map.has('keys'));
+
+// console.log(map.get('change'));
+// console.log(map.get(key));
+
+// console.log(map.size);
+
+// for(let key of map){
+//     console.log(key);
+// }
+
+// map.clear()
+// console.log(map);
+
+// Set
+
+// let set = new Set()
+//     console.log(set);
+
+//     set.add('1')
+//     set.add('2')
+//     set.add('3')
+//     set.add('4')
+//     console.log(set);
+//     //获取长度
+//     set.delete('1')
+//     console.log(set);
+//     // 删除
+//     console.log(set.has('3'));
+//     // 判断是否存在
+//     for(let key of set){
+//         console.log(key);
+//     }
+// //    循环
+//     console.log(set.size);
+
+//     let array=[1,1,1,1,1,2,2,2,3,3,3]
+
+//     let result =new Set(array)
+//     // 去重
+//     let b = [...result]
+//     console.log(b);
+//     // 转换数组
+//     let c =Array.from(result)
+//     console.log(c);
+    </script>
+</html>

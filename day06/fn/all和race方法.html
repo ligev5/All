@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // 和并数组race方法
+
+const p1 = new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+        resolve(11111);
+    },300)
+})
+
+
+const p2 = new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+        resolve(22222);
+    },500)
+})
+
+
+const p3 = new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+        resolve(3333);
+    },3000)
+})
+
+// Promise.race([p1,p2,p3])
+// .then(res=>{
+//     console.log('res:',res);
+// })
+// .catch(err=>{
+//     console.log('err:',err);
+// })
+
+// all方法
+
+Promise.all([p1,p2,p3])
+.then(res=>{
+    console.log('res:',res);
+})
+.catch(err=>{
+    console.log('err:',err);
+})
+</script>
+</html>
