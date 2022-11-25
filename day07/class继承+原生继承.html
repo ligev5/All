@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // function Phone(brand,price){
+    //     this.brand=brand;
+    //     this.price=price
+    // }
+    // Phone.prototype.call=function(){
+    //     console.log('我可以打电话');
+    // }
+
+    // function SmartPhone(brand,price,color,size){
+    //     Phone.call(this,brand,price);
+    //     this.color=color;
+    //     this.size=size;
+    // }
+
+    // // 设置子级构造函数的原型
+    // SmartPhone.prototype=new Phone;
+    // SmartPhone.prototype.constructor=SmartPhone;
+
+    // // 声明子类的方法
+
+    // SmartPhone.prototype.photo=function(){  
+    //     console.log('我可以拍照');
+    // }
+    // SmartPhone.prototype.playGame =function(){
+    //     console.log('我可以玩游戏');
+    // }
+
+    // const chu = new SmartPhone('红茶',3,'红色','5.5inch');
+    // console.log(chu);
+
+
+    //  //子类继承父类
+    // class SmPone extends Phone {
+    //     constructor(brand, price, color, size) {
+    //         super(brand, price)  
+    //         this.color = color
+    //         this.size = size
+    //     }
+    //     photo() {
+    //         console.log('这可以拍照');
+    //     }
+    //     Game() {
+    //         console.log('这可以玩游戏');
+    //     }
+    //     call() {
+    //         console.log('这个还能打视频');
+    //     }
+    // }
+    // const oppo = new SmPone('OO', '5999', '白色', '5.5inch')
+    // console.log(oppo);
+    // oppo.photo()
+    // oppo.Game()
+    // oppo.call()
+
+
+    // function Phone(brand,price){
+    //     this.brand=brand;
+    //     this.price=price
+    // }
+    // Phone.prototype.call=function(){
+    //     console.log('我可以打电话');
+    // }
+
+    // function SmartPhone(brand,price,color,size){
+    //     Phone.call(this,brand,price);
+    //     this.color=color;
+    //     this.size=size;
+    // }
+
+    // // 设置子级构造函数的原型
+    // SmartPhone.prototype=new Phone;
+    // SmartPhone.prototype.constructor=SmartPhone;
+
+    // // 声明子类的方法
+
+    // SmartPhone.prototype.photo=function(){  
+    //     console.log('我可以拍照');
+    // }
+    // SmartPhone.prototype.playGame =function(){
+    //     console.log('我可以玩游戏');
+    // }
+
+    // const chu = new SmartPhone('红茶',3,'红色','5.5inch');
+    // console.log(chu);
+
+
+    //  //子类继承父类
+    // class SmPone extends Phone {
+    //     constructor(brand, price, color, size) {
+    //         super(brand, price)  
+    //         this.color = color
+    //         this.size = size
+    //     }
+    //     photo() {
+    //         console.log('这可以拍照');
+    //     }
+    //     Game() {
+    //         console.log('这可以玩游戏');
+    //     }
+    //     call() {
+    //         console.log('这个还能打视频');
+    //     }
+    // }
+    // const oppo = new SmPone('OO', '5999', '白色', '5.5inch')
+    // console.log(oppo);
+    // oppo.photo()
+    // oppo.Game()
+    // oppo.call()
+
+
+    function Phone(brand,price){
+        this.brand=brand;
+        this.price=price
+    }
+    Phone.prototype.call=function(){
+        console.log('我可以打电话');
+    }
+
+    function SmartPhone(brand,price,color,size){
+        Phone.call(this,brand,price);
+        this.color=color;
+        this.size=size;
+    }
+
+    // 设置子级构造函数的原型
+    SmartPhone.prototype=new Phone;
+    SmartPhone.prototype.constructor=SmartPhone;
+
+    // 声明子类的方法
+
+    SmartPhone.prototype.photo=function(){  
+        console.log('我可以拍照');
+    }
+    SmartPhone.prototype.playGame =function(){
+        console.log('我可以玩游戏');
+    }
+
+    const chu = new SmartPhone('红茶',3,'红色','5.5inch');
+    console.log(chu);
+
+
+     //子类继承父类
+    class SmPone extends Phone {
+        constructor(brand, price, color, size) {
+            super(brand, price)  
+            this.color = color
+            this.size = size
+        }
+        photo() {
+            console.log('这可以拍照');
+        }
+        Game() {
+            console.log('这可以玩游戏');
+        }
+        call() {
+            console.log('这个还能打视频');
+        }
+    }
+    const oppo = new SmPone('OO', '5999', '白色', '5.5inch')
+    console.log(oppo);
+    oppo.photo()
+    oppo.Game()
+    oppo.call()
+</script>
+</html>
