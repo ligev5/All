@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/vue.js"></script>
+    <style>
+        .a{
+            width: 300px;
+            height: 300px;
+            border: 1px solid #000;
+        }
+        .happy{
+            border: 4px solid red;
+            background-color: aqua;
+            background: linear-gradient(30deg,yellow,pink,orange,yellow);
+        }
+        .sad{
+            border: 4px solid aqua;
+            background-color: #ccc;
+        }
+        .normal{
+            background-color: blue;
+        }
+        .active1{
+            background-color: yellowgreen;
+        }
+        .active2{
+            font-size: 30px;
+            text-shadow: 2px 2px 10px red;
+        }
+        .active3{
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+       <!-- <div id="root"> -->
+        <!-- 绑定class样式 字符串方法 适用于：样式的类名不确定，需要动态绑定 -->
+        <!-- <div class="a" :class="mood" @click="fn"></div> -->
+        <!-- 绑定class样式 数组方法 适用于：需要绑定的样式个数，名字也不确定 -->
+        <!-- <div class="a" :class="arr">数据绑定</div> -->
+        <!-- 绑定class样式 对象方法 适用于：样式的类名不确定，不需要动态绑定 -->
+        <!-- <div class="a" :class="obj">数据绑定</div> -->
+        <!-- 绑定class样式 三元表达式写法 适用于：样式的类名确定，不需要动态绑定 -->
+        <!-- <div class="a" :class="mood=='happy' ? 'active1' : 'active2'">数据绑定</div> -->
+       <!-- </div> -->
+        
+        <!-- <div id="root"> -->
+        <!-- 绑定class样式 字符串方法 适用于：样式的类名不确定，需要动态绑定 -->
+        <!-- <div class="a" :class="mood" @click="fn"></div> -->
+        <!-- 绑定class样式 数组方法 适用于：需要绑定的样式个数，名字也不确定 -->
+        <!-- <div class="a" :class="arr">数据绑定</div> -->
+        <!-- 绑定class样式 对象方法 适用于：样式的类名不确定，不需要动态绑定 -->
+        <!-- <div class="a" :class="obj">数据绑定</div> -->
+        <!-- 绑定class样式 三元表达式写法 适用于：样式的类名确定，不需要动态绑定 -->
+        <!-- <div class="a" :class="mood=='happy' ? 'active1' : 'active2'">数据绑定</div> -->
+       <!-- </div> -->
+
+        <div id="root"> -->
+        <!-- 绑定class样式 字符串方法 适用于：样式的类名不确定，需要动态绑定 -->
+        <div class="a" :class="mood" @click="fn"></div>
+        <!-- 绑定class样式 数组方法 适用于：需要绑定的样式个数，名字也不确定 -->
+        <div class="a" :class="arr">数据绑定</div>
+        <!-- 绑定class样式 对象方法 适用于：样式的类名不确定，不需要动态绑定 -->
+        <div class="a" :class="obj">数据绑定</div>
+        <!-- 绑定class样式 三元表达式写法 适用于：样式的类名确定，不需要动态绑定 -->
+        <div class="a" :class="mood=='happy' ? 'active1' : 'active2'">数据绑定</div>
+       </div>
+       
+    <script>
+        // new Vue({
+        //     el:'#root',
+           
+        //     data:{
+        //         mood:'',
+        //         arr:["active1","active2","active3"],
+        //     obj:{
+        //         happy:true,
+        //         sad:false,
+        //         normal:true
+        //     }
+        //     },
+        //     methods: {
+        //         fn(){
+        //             let res = ["happy","sad","normal"];
+        //             let index =Math.floor(Math.random()*3);
+        //             this.mood = res [index]
+        //         }
+        //     },
+        // })
+
+        // new Vue({
+        //     el:'#root',
+           
+        //     data:{
+        //         mood:'',
+        //         arr:["active1","active2","active3"],
+        //     obj:{
+        //         happy:true,
+        //         sad:false,
+        //         normal:true
+        //     }
+        //     },
+        //     methods: {
+        //         fn(){
+        //             let res = ["happy","sad","normal"];
+        //             let index =Math.floor(Math.random()*3);
+        //             this.mood = res [index]
+        //         }
+        //     },
+        // })
+
+        new Vue({
+            el:'#root',
+           
+            data:{
+                mood:'',
+                arr:["active1","active2","active3"],
+            obj:{
+                happy:true,
+                sad:false,
+                normal:true
+            }
+            },
+            methods: {
+                fn(){
+                    let res = ["happy","sad","normal"];
+                    let index =Math.floor(Math.random()*3);
+                    this.mood = res [index]
+                }
+            },
+        })
+    </script>
+</body>
+</html>

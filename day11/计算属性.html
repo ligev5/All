@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+    <!-- <div id="Fog">
+        <div>姓名: <input type="text" v-model="name"></div>
+        <div>年龄: <input type="text" v-model="age"></div>
+        <div><input type="text" v-model="res"></div>
+    </div>
+    <div id="Fog">
+        <div>姓名: <input type="text" v-model="name"></div>
+        <div>年龄: <input type="text" v-model="age"></div>
+        <div><input type="text" v-model="res"></div>
+    </div> -->
+    <div id="Fog">
+        <div>姓名: <input type="text" v-model="name"></div>
+        <div>年龄: <input type="text" v-model="age"></div>
+        <div><input type="text" v-model="res"></div>
+    </div>
+</body>
+<script>
+    //  new Vue({
+    //     el:'#Fog',
+    //     data:{
+    //         name:'PG One',
+    //         age:'18'
+    //     },
+    //     computed:{
+    //         // 完整写法
+    //         res:{
+    //             get:function(){
+    //                 return this.name+ '-' + this.age
+    //             },
+    //             set:function(val){
+    //                 // 使用字符串切割方法，将字符串分开，并进行赋值
+    //                 let result = val.split('-')
+    //                 this.name=result[0]
+    //                 this.age=result[1]
+    //             }
+    //         },
+    //         // // 简单写法
+    //         // fn(){
+    //         //     return this.name + '-' +this.age
+    //         // }
+    //     }
+    // })
+    // new Vue({
+    //     el:'#Fog',
+    //     data:{
+    //         name:'PG One',
+    //         age:'18'
+    //     },
+    //     computed:{
+    //         // 完整写法
+    //         res:{
+    //             get:function(){
+    //                 return this.name+ '-' + this.age
+    //             },
+    //             set:function(val){
+    //                 // 使用字符串切割方法，将字符串分开，并进行赋值
+    //                 let result = val.split('-')
+    //                 this.name=result[0]
+    //                 this.age=result[1]
+    //             }
+    //         },
+    //         // // 简单写法
+    //         // fn(){
+    //         //     return this.name + '-' +this.age
+    //         // }
+    //     }
+    // })
+    new Vue({
+        el:'#Fog',
+        data:{
+            name:'PG One',
+            age:'18'
+        },
+        computed:{
+            // 完整写法
+            res:{
+                get:function(){
+                    return this.name+ '-' + this.age
+                },
+                set:function(val){
+                    // 使用字符串切割方法，将字符串分开，并进行赋值
+                    let result = val.split('-')
+                    this.name=result[0]
+                    this.age=result[1]
+                }
+            },
+            // // 简单写法
+            // fn(){
+            //     return this.name + '-' +this.age
+            // }
+        }
+    })
+</script>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+    <!-- <div id="root">
+        <div>姓：<input type="text" v-model="firestname"></div>
+        <div>名：<input type="text" v-model="lastname"></div>
+        <div><input type="text"  v-model="fullname"></div>
+    </div>
+    <div id="root">
+        <div>姓：<input type="text" v-model="firestname"></div>
+        <div>名：<input type="text" v-model="lastname"></div>
+        <div><input type="text"  v-model="fullname"></div>
+    </div> -->
+    <div id="root">
+        <div>姓：<input type="text" v-model="firestname"></div>
+        <div>名：<input type="text" v-model="lastname"></div>
+        <div><input type="text"  v-model="fullname"></div>
+    </div>
+</body>
+    <script>
+        // new Vue({
+        //     el:'#root',
+        //     data:{
+        //         firestname:'张',
+        //         lastname:'立',
+        //         fullname:''
+        //     },
+        //     methods: {
+        //         handlefullname(){
+        //             console.log('我是函数调用');
+        //             this.fullname=this.firestname + '-' + this.lastname
+        //             return this.firestname + '-' + this.lastname
+        //         },
+        //         handlechangeinput(){
+        //             let result =this.fullname.split('-')
+        //             this.firestname=result[0]
+        //             this.lastname=result[0]
+        //         }
+        //     },
+        //     watch:{
+        //         firestname(newName,oldValue){
+        //             this.fullname=newName + '-' + this.lastname
+        //         },
+        //         lastname(newName,oldValue){
+        //             this.fullname=this.firestname + '-' + newName
+        //         },
+        //         fullname(newName,oldValue){
+        //             var names = newName.split('-')
+        //             this.firestname=names[0]
+        //             this.lastname=names[1]
+        //         }
+        //     }
+        // })
+
+        // new Vue({
+        //     el:'#root',
+        //     data:{
+        //         firestname:'张',
+        //         lastname:'立',
+        //         fullname:''
+        //     },
+        //     methods: {
+        //         handlefullname(){
+        //             console.log('我是函数调用');
+        //             this.fullname=this.firestname + '-' + this.lastname
+        //             return this.firestname + '-' + this.lastname
+        //         },
+        //         handlechangeinput(){
+        //             let result =this.fullname.split('-')
+        //             this.firestname=result[0]
+        //             this.lastname=result[0]
+        //         }
+        //     },
+        //     watch:{
+        //         firestname(newName,oldValue){
+        //             this.fullname=newName + '-' + this.lastname
+        //         },
+        //         lastname(newName,oldValue){
+        //             this.fullname=this.firestname + '-' + newName
+        //         },
+        //         fullname(newName,oldValue){
+        //             var names = newName.split('-')
+        //             this.firestname=names[0]
+        //             this.lastname=names[1]
+        //         }
+        //     }
+        // })
+        new Vue({
+            el:'#root',
+            data:{
+                firestname:'张',
+                lastname:'立',
+                fullname:''
+            },
+            methods: {
+                // handlefullname(){
+                //     console.log('我是函数调用');
+                //     this.fullname=this.firestname + '-' + this.lastname
+                //     return this.firestname + '-' + this.lastname
+                // },
+                // handlechangeinput(){
+                //     let result =this.fullname.split('-')
+                //     this.firestname=result[0]
+                //     this.lastname=result[0]
+                // }
+            },
+            watch:{
+                firestname(newName,oldValue){
+                    this.fullname=newName + '-' + this.lastname
+                },
+                lastname(newName,oldValue){
+                    this.fullname=this.firestname + '-' + newName
+                },
+                fullname(newName,oldValue){
+                    var names = newName.split('-')
+                    this.firestname=names[0]
+                    this.lastname=names[1]
+                }
+            }
+        })
+    </script>
+</html>
