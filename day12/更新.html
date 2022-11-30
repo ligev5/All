@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+    <!-- <div id="root">
+        <button @click="add">更新马冬梅的信息</button>
+        <ul>
+            <li v-for="item in list" :key="item.id">
+                {{item.name}} -- {{item.age}} -- {{item.sex}}
+            </li>
+        </ul>
+    </div> -->
+
+    <div id="root">
+        <button @click="add">更新马冬梅的信息</button>
+        <ul>
+            <li v-for="item in list" :key="item.id">
+                {{item.name}} -- {{item.age}} -- {{item.sex}}
+            </li>
+        </ul>
+    </div>
+</body>
+    <script>
+        // new Vue({
+        //     el:'#root',
+        //     data:{
+        //         list:[
+        //             {id:'002',name:'马冬梅',age:'30',sex:'女'},
+        //             {id:'003',name:'周冬雨',age:'31',sex:'女'},
+        //             {id:'004',name:'周杰伦',age:'18',sex:'女'},
+        //             {id:'005',name:'李二亮',age:'40',sex:'女'}
+        //         ]
+        //     },
+        //     methods: {
+        //         add(){
+        //             // this.list[0].name='冯小刚'
+        //             // this.list[0].age='60'
+        //             // this.list[0].sex='男'
+        //             // this.list[0]={id:'006',name:'pgone',age:'25',sex:'男'}
+        //             // this.list.splice(0,1,{id:'006',name:'pgone',age:'25',sex:'男'})
+        //             // Vue.set(this.list,0,{name:'撒旦撒旦',age:'33',sex:'男'}) 
+        //             this.$set(this.list,0,{name:'撒旦撒旦',age:'33',sex:'男'})
+        //         }
+        //     },
+        // })
+
+        new Vue({
+            el:'#root',
+            data:{
+                list:[
+                    {id:'002',name:'马冬梅',age:'30',sex:'女'},
+                    {id:'003',name:'周冬雨',age:'31',sex:'女'},
+                    {id:'004',name:'周杰伦',age:'18',sex:'女'},
+                    {id:'005',name:'李二亮',age:'40',sex:'女'}
+                ]
+            },
+            methods: {
+                add(){
+                    // this.list[0].name='冯小刚'
+                    // this.list[0].age='60'
+                    // this.list[0].sex='男'
+                    // this.list[0]={id:'006',name:'pgone',age:'25',sex:'男'}
+                    // this.list.splice(0,1,{id:'006',name:'pgone',age:'25',sex:'男'})
+                    // Vue.set(this.list,0,{name:'撒旦撒旦',age:'33',sex:'男'}) 
+                    this.$set(this.list,0,{name:'撒旦撒旦',age:'33',sex:'男'})
+                }
+            },
+        })
+    </script>
+</html>
