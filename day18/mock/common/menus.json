@@ -1,0 +1,80 @@
+{
+  "data": [
+    {
+      "id": 101,
+      "authName": "用户管理",
+      "path": "users",
+      "children": [
+        {
+          "id": 104,
+          "authName": "用户列表",
+          "path": "users",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "authName": "权限管理",
+      "path": "welcome",
+      "children": [
+        {
+          "id": 105,
+          "authName": "角色列表",
+          "path": "roles",
+          "children": []
+        },
+				{
+          "id": 106,
+          "authName": "权限列表",
+          "path": "rights",
+          "children": []
+        }
+      ]
+    },
+		{
+      "id": 108,
+      "authName": "商品管理",
+      "path": "welcomes",
+      "children": [
+        {
+          "id": 109,
+          "authName": "商品列表",
+          "path": "goods",
+          "children": []
+        },
+				{
+          "id": 110,
+          "authName": "分类参数",
+          "path": "params",
+          "children": []
+        },
+				{
+          "id": 111,
+          "authName": "商品分类",
+          "path": "Categories",
+          "children": []
+        }
+      ]
+    },
+		{
+      "id": 112,
+      "authName": "订单管理",
+      "path": "welcomess",
+      "children": [
+				{
+          "id": 113,
+          "authName": "订单列表",
+          "path": "orders",
+          "children": []
+        }
+
+      ]
+    }
+  ],
+
+  "meta": {
+    "msg": "获取菜单列表成功",
+    "status": 200
+  }
+}
