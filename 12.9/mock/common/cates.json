@@ -1,0 +1,1851 @@
+{
+	"data": {
+		"total": 14,
+		"pagenum": 0,
+		"pagesize": 5,
+		"result": [
+			{
+				"cat_id": 904,
+				"cat_name": "女装",
+				"cat_pid": 0,
+				"cat_level": 0,
+				"cat_deleted": false,
+				"children": [
+					{
+						"cat_id": 906,
+						"cat_name": "精选",
+						"cat_pid": 904,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 925,
+								"cat_name": "毛呢大衣",
+								"cat_pid": 906,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 912,
+						"cat_name": "潮流女装",
+						"cat_pid": 904,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 926,
+								"cat_name": "卫衣",
+								"cat_pid": 912,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 928,
+								"cat_name": "棉服",
+								"cat_pid": 912,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 929,
+								"cat_name": "短外套",
+								"cat_pid": 912,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 930,
+								"cat_name": "半身裙",
+								"cat_pid": 912,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 931,
+								"cat_name": "牛仔外套",
+								"cat_pid": 912,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 932,
+								"cat_name": "风衣",
+								"cat_pid": 912,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 933,
+								"cat_name": "牛仔裤",
+								"cat_pid": 912,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 934,
+								"cat_name": "皮草",
+								"cat_pid": 912,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 935,
+								"cat_name": "皮衣",
+								"cat_pid": 912,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 936,
+								"cat_name": "衬衫",
+								"cat_pid": 912,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 937,
+								"cat_name": "马甲",
+								"cat_pid": 912,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 939,
+								"cat_name": "打底裤",
+								"cat_pid": 912,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 940,
+								"cat_name": "婚纱礼服",
+								"cat_pid": 912,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 941,
+								"cat_name": "西服",
+								"cat_pid": 912,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1520,
+								"cat_name": "服装",
+								"cat_pid": 912,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 927,
+						"cat_name": "品牌墙",
+						"cat_pid": 904,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 943,
+								"cat_name": "茵曼",
+								"cat_pid": 927,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 944,
+								"cat_name": "纤莉秀",
+								"cat_pid": 927,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 945,
+								"cat_name": "韩都衣舍",
+								"cat_pid": 927,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 947,
+								"cat_name": "烟花烫",
+								"cat_pid": 927,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 948,
+								"cat_name": "熙世界",
+								"cat_pid": 927,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 949,
+								"cat_name": "佐露丝",
+								"cat_pid": 927,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 951,
+								"cat_name": "初语",
+								"cat_pid": 927,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					}
+				]
+			},
+			{
+				"cat_id": 954,
+				"cat_name": "汽车生活",
+				"cat_pid": 0,
+				"cat_level": 0,
+				"cat_deleted": false,
+				"children": [
+					{
+						"cat_id": 956,
+						"cat_name": "汽车整车",
+						"cat_pid": 954,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 972,
+								"cat_name": "平安车管家",
+								"cat_pid": 956,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 958,
+						"cat_name": "养护配件",
+						"cat_pid": 954,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 974,
+								"cat_name": "燃油添加剂",
+								"cat_pid": 958,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 976,
+								"cat_name": "加油卡",
+								"cat_pid": 958,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 978,
+								"cat_name": "车载吸尘器",
+								"cat_pid": 958,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 979,
+								"cat_name": "电瓶",
+								"cat_pid": 958,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 980,
+								"cat_name": "雨刷",
+								"cat_pid": 958,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 981,
+								"cat_name": "滤清器",
+								"cat_pid": 958,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 982,
+								"cat_name": "刹车片",
+								"cat_pid": 958,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 983,
+								"cat_name": "轮胎",
+								"cat_pid": 958,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 985,
+								"cat_name": "火花塞",
+								"cat_pid": 958,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 986,
+								"cat_name": "胎压监测",
+								"cat_pid": 958,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 987,
+								"cat_name": "手机支架",
+								"cat_pid": 958,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 975,
+						"cat_name": "清洁美容",
+						"cat_pid": 954,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 989,
+								"cat_name": "玻璃水",
+								"cat_pid": 975,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 990,
+								"cat_name": "漆面修复",
+								"cat_pid": 975,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 991,
+								"cat_name": "车蜡",
+								"cat_pid": 975,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 992,
+								"cat_name": "内饰清洁",
+								"cat_pid": 975,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 993,
+								"cat_name": "清洁工具",
+								"cat_pid": 975,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 977,
+						"cat_name": "汽车电子",
+						"cat_pid": 954,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 995,
+								"cat_name": "电子狗",
+								"cat_pid": 977,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 996,
+								"cat_name": "车载冰箱",
+								"cat_pid": 977,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 997,
+								"cat_name": "车载电源",
+								"cat_pid": 977,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 998,
+								"cat_name": "车载空气净化器",
+								"cat_pid": 977,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 984,
+						"cat_name": "汽车装饰",
+						"cat_pid": 954,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1002,
+								"cat_name": "挂饰/摆饰",
+								"cat_pid": 984,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1003,
+								"cat_name": "汽车脚垫",
+								"cat_pid": 984,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1005,
+								"cat_name": "抱枕/腰靠",
+								"cat_pid": 984,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1006,
+								"cat_name": "安全座椅",
+								"cat_pid": 984,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1007,
+								"cat_name": "汽车坐垫",
+								"cat_pid": 984,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1559,
+						"cat_name": "官方回复",
+						"cat_pid": 954,
+						"cat_level": 1,
+						"cat_deleted": false
+					}
+				]
+			},
+			{
+				"cat_id": 1000,
+				"cat_name": "运动户外",
+				"cat_pid": 0,
+				"cat_level": 0,
+				"cat_deleted": false,
+				"children": [
+					{
+						"cat_id": 1001,
+						"cat_name": "热门推荐",
+						"cat_pid": 1000,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1010,
+								"cat_name": "哑铃",
+								"cat_pid": 1001,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1011,
+								"cat_name": "自行车",
+								"cat_pid": 1001,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1012,
+								"cat_name": "篮球鞋",
+								"cat_pid": 1001,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1014,
+								"cat_name": "钓竿",
+								"cat_pid": 1001,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1015,
+								"cat_name": "羽毛球",
+								"cat_pid": 1001,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1016,
+								"cat_name": "篮球",
+								"cat_pid": 1001,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1017,
+								"cat_name": "跑步机",
+								"cat_pid": 1001,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1004,
+						"cat_name": "运动服饰",
+						"cat_pid": 1000,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1018,
+								"cat_name": "运动夹克",
+								"cat_pid": 1004,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1019,
+								"cat_name": "运动T恤",
+								"cat_pid": 1004,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1020,
+								"cat_name": "运动风衣",
+								"cat_pid": 1004,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1021,
+								"cat_name": "运动卫衣",
+								"cat_pid": 1004,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1022,
+								"cat_name": "运动长裤",
+								"cat_pid": 1004,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1023,
+								"cat_name": "棉服",
+								"cat_pid": 1004,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1024,
+								"cat_name": "健身服",
+								"cat_pid": 1004,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1025,
+								"cat_name": "运动套装",
+								"cat_pid": 1004,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1013,
+						"cat_name": "健身器材",
+						"cat_pid": 1000,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1028,
+								"cat_name": "仰卧板",
+								"cat_pid": 1013,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1029,
+								"cat_name": "甩脂机",
+								"cat_pid": 1013,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1030,
+								"cat_name": "健腹轮",
+								"cat_pid": 1013,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1032,
+								"cat_name": "健身车",
+								"cat_pid": 1013,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1033,
+								"cat_name": "哑铃",
+								"cat_pid": 1013,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1034,
+								"cat_name": "拉力器",
+								"cat_pid": 1013,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1035,
+								"cat_name": "跳绳",
+								"cat_pid": 1013,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1036,
+								"cat_name": "计步器",
+								"cat_pid": 1013,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1037,
+								"cat_name": "握力器",
+								"cat_pid": 1013,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1038,
+								"cat_name": "综合训练器",
+								"cat_pid": 1013,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1027,
+						"cat_name": "骑行装备",
+						"cat_pid": 1000,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1040,
+								"cat_name": "公路车",
+								"cat_pid": 1027,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1041,
+								"cat_name": "电动车",
+								"cat_pid": 1027,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1042,
+								"cat_name": "死飞",
+								"cat_pid": 1027,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1043,
+								"cat_name": "折叠自行车",
+								"cat_pid": 1027,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1044,
+								"cat_name": "平衡车",
+								"cat_pid": 1027,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1045,
+								"cat_name": "通勤自行车",
+								"cat_pid": 1027,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1046,
+								"cat_name": "骑行服饰",
+								"cat_pid": 1027,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1048,
+								"cat_name": "单车装备",
+								"cat_pid": 1027,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1031,
+						"cat_name": "体育休闲",
+						"cat_pid": 1000,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1050,
+								"cat_name": "篮球",
+								"cat_pid": 1031,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1051,
+								"cat_name": "瑜伽",
+								"cat_pid": 1031,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1052,
+								"cat_name": "乒乓球",
+								"cat_pid": 1031,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1053,
+								"cat_name": "排球",
+								"cat_pid": 1031,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1054,
+								"cat_name": "网球",
+								"cat_pid": 1031,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1055,
+								"cat_name": "田径运动",
+								"cat_pid": 1031,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1057,
+								"cat_name": "武术搏击",
+								"cat_pid": 1031,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1058,
+								"cat_name": "棋牌麻将",
+								"cat_pid": 1031,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1047,
+						"cat_name": "户外鞋服",
+						"cat_pid": 1000,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1060,
+								"cat_name": "登山鞋",
+								"cat_pid": 1047,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1062,
+								"cat_name": "越野跑鞋",
+								"cat_pid": 1047,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1063,
+								"cat_name": "速干衣/裤",
+								"cat_pid": 1047,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1064,
+								"cat_name": "抓绒衣/裤",
+								"cat_pid": 1047,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1065,
+								"cat_name": "冲锋衣/裤",
+								"cat_pid": 1047,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1056,
+						"cat_name": "垂钓用品",
+						"cat_pid": 1000,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1067,
+								"cat_name": "钓鱼工具",
+								"cat_pid": 1056,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1068,
+								"cat_name": "钓伞",
+								"cat_pid": 1056,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1069,
+								"cat_name": "渔具套装",
+								"cat_pid": 1056,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1070,
+								"cat_name": "鱼饵",
+								"cat_pid": 1056,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1071,
+								"cat_name": "鱼钩/钓钩",
+								"cat_pid": 1056,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1072,
+								"cat_name": "钓鱼服",
+								"cat_pid": 1056,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1074,
+								"cat_name": "浮漂",
+								"cat_pid": 1056,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1075,
+								"cat_name": "鱼线",
+								"cat_pid": 1056,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1061,
+						"cat_name": "运动鞋",
+						"cat_pid": 1000,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1076,
+								"cat_name": "休闲板鞋",
+								"cat_pid": 1061,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1077,
+								"cat_name": "足球鞋",
+								"cat_pid": 1061,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1078,
+								"cat_name": "训练鞋",
+								"cat_pid": 1061,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1079,
+								"cat_name": "网球鞋",
+								"cat_pid": 1061,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1080,
+								"cat_name": "羽毛球鞋",
+								"cat_pid": 1061,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1073,
+						"cat_name": "户外装备",
+						"cat_pid": 1000,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1083,
+								"cat_name": "望远镜",
+								"cat_pid": 1073,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1085,
+								"cat_name": "防潮垫",
+								"cat_pid": 1073,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1086,
+								"cat_name": "睡袋",
+								"cat_pid": 1073,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1087,
+								"cat_name": "多用刀具",
+								"cat_pid": 1073,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1088,
+								"cat_name": "户外照明/仪表",
+								"cat_pid": 1073,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1089,
+								"cat_name": "户外水具",
+								"cat_pid": 1073,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1090,
+								"cat_name": "野餐烧烤",
+								"cat_pid": 1073,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1091,
+								"cat_name": "军迷用品",
+								"cat_pid": 1073,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1081,
+						"cat_name": "运动包/配件",
+						"cat_pid": 1000,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1093,
+								"cat_name": "双肩背包",
+								"cat_pid": 1081,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1094,
+								"cat_name": "腰包/卡包",
+								"cat_pid": 1081,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1095,
+								"cat_name": "鼓包/旅行包",
+								"cat_pid": 1081,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1096,
+								"cat_name": "运动袜",
+								"cat_pid": 1081,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1097,
+								"cat_name": "运动帽",
+								"cat_pid": 1081,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1084,
+						"cat_name": "品牌墙",
+						"cat_pid": 1000,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1099,
+								"cat_name": "阿迪达斯",
+								"cat_pid": 1084,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1101,
+								"cat_name": "新百伦",
+								"cat_pid": 1084,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1102,
+								"cat_name": "彪马",
+								"cat_pid": 1084,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1104,
+								"cat_name": "安踏",
+								"cat_pid": 1084,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1105,
+								"cat_name": "李宁",
+								"cat_pid": 1084,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1106,
+								"cat_name": "鸿星尔克",
+								"cat_pid": 1084,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1107,
+								"cat_name": "特步",
+								"cat_pid": 1084,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1108,
+								"cat_name": "乔丹",
+								"cat_pid": 1084,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					}
+				]
+			},
+			{
+				"cat_id": 1218,
+				"cat_name": "童装玩具",
+				"cat_pid": 0,
+				"cat_level": 0,
+				"cat_deleted": false,
+				"children": [
+					{
+						"cat_id": 1225,
+						"cat_name": "婴幼玩具",
+						"cat_pid": 1218,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1232,
+								"cat_name": "积木",
+								"cat_pid": 1225,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1233,
+								"cat_name": "爬行垫",
+								"cat_pid": 1225,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1234,
+								"cat_name": "游泳池",
+								"cat_pid": 1225,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1235,
+								"cat_name": "健身架",
+								"cat_pid": 1225,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1236,
+								"cat_name": "迷宫/拼图",
+								"cat_pid": 1225,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1237,
+								"cat_name": "磁力棒/磁贴",
+								"cat_pid": 1225,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1238,
+								"cat_name": "儿童旅行箱",
+								"cat_pid": 1225,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1228,
+						"cat_name": "户外玩具",
+						"cat_pid": 1218,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1240,
+								"cat_name": "绳类/球类",
+								"cat_pid": 1228,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1241,
+								"cat_name": "轮滑/摇马",
+								"cat_pid": 1228,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1242,
+								"cat_name": "泡泡机",
+								"cat_pid": 1228,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1243,
+								"cat_name": "戏水玩沙",
+								"cat_pid": 1228,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1244,
+								"cat_name": "游戏屋/海洋球",
+								"cat_pid": 1228,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1231,
+						"cat_name": "DIY玩具",
+						"cat_pid": 1218,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1247,
+								"cat_name": "布艺玩具",
+								"cat_pid": 1231,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1248,
+								"cat_name": "桌面游戏",
+								"cat_pid": 1231,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1249,
+								"cat_name": "手工彩泥",
+								"cat_pid": 1231,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1251,
+								"cat_name": "画笔画架",
+								"cat_pid": 1231,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1252,
+								"cat_name": "过家家玩具",
+								"cat_pid": 1231,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1246,
+						"cat_name": "遥控模型玩具",
+						"cat_pid": 1218,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1254,
+								"cat_name": "电动玩具",
+								"cat_pid": 1246,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1255,
+								"cat_name": "仿真模型玩具",
+								"cat_pid": 1246,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1256,
+								"cat_name": "拼装模型玩具",
+								"cat_pid": 1246,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1257,
+								"cat_name": "变形类玩具",
+								"cat_pid": 1246,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1258,
+								"cat_name": "兵器/军事模型",
+								"cat_pid": 1246,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1250,
+						"cat_name": "童装",
+						"cat_pid": 1218,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1261,
+								"cat_name": "卫衣",
+								"cat_pid": 1250,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1262,
+								"cat_name": "毛衣/针织衫",
+								"cat_pid": 1250,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1263,
+								"cat_name": "婴儿爬服",
+								"cat_pid": 1250,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1264,
+								"cat_name": "T恤/衬衫",
+								"cat_pid": 1250,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1265,
+								"cat_name": "裤子",
+								"cat_pid": 1250,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1266,
+								"cat_name": "外套",
+								"cat_pid": 1250,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1267,
+								"cat_name": "婴童内衣",
+								"cat_pid": 1250,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1268,
+								"cat_name": "儿童配饰",
+								"cat_pid": 1250,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1269,
+								"cat_name": "婴儿礼盒",
+								"cat_pid": 1250,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1270,
+								"cat_name": "裙子",
+								"cat_pid": 1250,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1271,
+								"cat_name": "亲子装",
+								"cat_pid": 1250,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1259,
+						"cat_name": "童鞋",
+						"cat_pid": 1218,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1274,
+								"cat_name": "运动鞋",
+								"cat_pid": 1259,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1275,
+								"cat_name": "靴子/雪地靴",
+								"cat_pid": 1259,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1276,
+								"cat_name": "皮鞋/公主鞋",
+								"cat_pid": 1259,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1277,
+								"cat_name": "帆布鞋",
+								"cat_pid": 1259,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1278,
+								"cat_name": "棉鞋",
+								"cat_pid": 1259,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1279,
+								"cat_name": "拖鞋",
+								"cat_pid": 1259,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1280,
+								"cat_name": "雨鞋",
+								"cat_pid": 1259,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1281,
+								"cat_name": "凉鞋",
+								"cat_pid": 1259,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1273,
+						"cat_name": "宝宝寝居",
+						"cat_pid": 1218,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1284,
+								"cat_name": "隔尿垫",
+								"cat_pid": 1273,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1285,
+								"cat_name": "婴儿枕",
+								"cat_pid": 1273,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1286,
+								"cat_name": "被褥/毛毯",
+								"cat_pid": 1273,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1287,
+								"cat_name": "浴巾/毛巾",
+								"cat_pid": 1273,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1288,
+								"cat_name": "床品套装",
+								"cat_pid": 1273,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1289,
+								"cat_name": "布尿裤",
+								"cat_pid": 1273,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1290,
+								"cat_name": "床垫",
+								"cat_pid": 1273,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1291,
+								"cat_name": "凉席/蚊帐",
+								"cat_pid": 1273,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1282,
+						"cat_name": "品牌墙",
+						"cat_pid": 1218,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1293,
+								"cat_name": "十月妈咪",
+								"cat_pid": 1282,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1294,
+								"cat_name": "英氏",
+								"cat_pid": 1282,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1296,
+								"cat_name": "七波辉",
+								"cat_pid": 1282,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1297,
+								"cat_name": "史努比",
+								"cat_pid": 1282,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1299,
+								"cat_name": "UOVO",
+								"cat_pid": 1282,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1300,
+								"cat_name": "良良",
+								"cat_pid": 1282,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1302,
+								"cat_name": "费雪",
+								"cat_pid": 1282,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1303,
+								"cat_name": "乐高",
+								"cat_pid": 1282,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1304,
+								"cat_name": "澳贝",
+								"cat_pid": 1282,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1305,
+								"cat_name": "迪士尼",
+								"cat_pid": 1282,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1306,
+								"cat_name": "仙邦宝贝",
+								"cat_pid": 1282,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1307,
+								"cat_name": "芭比",
+								"cat_pid": 1282,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1308,
+								"cat_name": "捣蛋鬼",
+								"cat_pid": 1282,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1309,
+								"cat_name": "风火轮",
+								"cat_pid": 1282,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1557,
+						"cat_name": "qwerty",
+						"cat_pid": 1218,
+						"cat_level": 1,
+						"cat_deleted": false
+					}
+				]
+			},
+			{
+				"cat_id": 1335,
+				"cat_name": "智能设备",
+				"cat_pid": 0,
+				"cat_level": 0,
+				"cat_deleted": false,
+				"children": [
+					{
+						"cat_id": 1343,
+						"cat_name": "智能酷玩",
+						"cat_pid": 1335,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1354,
+								"cat_name": "智能手环",
+								"cat_pid": 1343,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1355,
+								"cat_name": "VR眼镜",
+								"cat_pid": 1343,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1356,
+								"cat_name": "智能手表",
+								"cat_pid": 1343,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1350,
+						"cat_name": "潮流数码",
+						"cat_pid": 1335,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1359,
+								"cat_name": "播放器",
+								"cat_pid": 1350,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1360,
+								"cat_name": "蓝牙耳机",
+								"cat_pid": 1350,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1361,
+								"cat_name": "蓝牙音箱",
+								"cat_pid": 1350,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1362,
+								"cat_name": "收录机",
+								"cat_pid": 1350,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1363,
+								"cat_name": "录音笔",
+								"cat_pid": 1350,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1352,
+						"cat_name": "智能家居",
+						"cat_pid": 1335,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1365,
+								"cat_name": "智能摄像头",
+								"cat_pid": 1352,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1366,
+								"cat_name": "智能健康",
+								"cat_pid": 1352,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1561,
+								"cat_name": "44568-",
+								"cat_pid": 1352,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1357,
+						"cat_name": "电子教育",
+						"cat_pid": 1335,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1370,
+								"cat_name": "智能机器人",
+								"cat_pid": 1357,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1371,
+								"cat_name": "电纸书",
+								"cat_pid": 1357,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1373,
+								"cat_name": "点读机",
+								"cat_pid": 1357,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1374,
+								"cat_name": "点读笔",
+								"cat_pid": 1357,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1376,
+								"cat_name": "复读机",
+								"cat_pid": 1357,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					},
+					{
+						"cat_id": 1367,
+						"cat_name": "品牌墙",
+						"cat_pid": 1335,
+						"cat_level": 1,
+						"cat_deleted": false,
+						"children": [
+							{
+								"cat_id": 1377,
+								"cat_name": "小蚁",
+								"cat_pid": 1367,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1378,
+								"cat_name": "360",
+								"cat_pid": 1367,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1379,
+								"cat_name": "AKG",
+								"cat_pid": 1367,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1380,
+								"cat_name": "Beats",
+								"cat_pid": 1367,
+								"cat_level": 2,
+								"cat_deleted": false
+							},
+							{
+								"cat_id": 1381,
+								"cat_name": "JBL",
+								"cat_pid": 1367,
+								"cat_level": 2,
+								"cat_deleted": false
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"meta": {
+		"msg": "获取成功",
+		"status": 200
+	}
+}
